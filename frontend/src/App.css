@@ -1,0 +1,14 @@
+.custom-grid {
+  max-width: 41.43vw;
+  height: auto;
+  padding: 5.85vw 9.51vw 9.95vw 5.85vw;
+  background-color: white;
+}
+.custom-margin {
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+.search-menu {
+  padding-top: '0%';
+  padding-bottom: '0%';
+}

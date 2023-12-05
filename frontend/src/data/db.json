@@ -1,0 +1,199 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "Password@123"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "Password@456"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "email": "michael@example.com",
+      "password": "Password@789"
+    },
+    {
+      "name": "Sai Charan Chetpelly",
+      "email": "saicharan.chetpelly@zemosolabs.com",
+      "password": "Password@123",
+      "id": 4
+    }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "name": "Document1.pdf",
+      "type": "pdf",
+      "uploaded_by": "1",
+      "created_at": "2023-08-31T10:00:00Z",
+      "updated_at": "2023-09-01T08:30:00Z",
+      "thumbnail_url": "assets/images/Document1.png"
+    },
+    {
+      "id": 2,
+      "name": "Document2.pdf",
+      "type": "pdf",
+      "uploaded_by": "1",
+      "created_at": "2023-08-30T14:30:00Z",
+      "updated_at": "2023-09-02T11:45:00Z",
+      "thumbnail_url": "assets/images/Document2.png"
+    },
+    {
+      "id": 3,
+      "name": "Document3.pdf",
+      "type": "pdf",
+      "uploaded_by": "2",
+      "created_at": "2023-08-29T09:15:00Z",
+      "updated_at": "2023-09-03T16:20:00Z",
+      "thumbnail_url": "assets/images/Document3.png"
+    },
+    {
+      "name": "Osmania University Results - 2023.pdf",
+      "type": "application/pdf",
+      "uploaded_by": 4,
+      "created_at": "2023-09-11T10:41:09.181Z",
+      "updated_at": "2023-09-11T10:41:09.181Z",
+      "thumbnail_url": "assets/images/Document1.png",
+      "id": 4
+    },
+    {
+      "name": "resume updated (1).pdf",
+      "type": "application/pdf",
+      "uploaded_by": 4,
+      "created_at": "2023-09-20T11:56:33.250Z",
+      "updated_at": "2023-09-20T11:56:33.250Z",
+      "thumbnail_url": "assets/images/Document1.png",
+      "id": 5
+    },
+    {
+      "name": "resume updated (1).pdf",
+      "type": "application/pdf",
+      "uploaded_by": 4,
+      "created_at": "2023-09-20T12:01:04.170Z",
+      "updated_at": "2023-09-20T12:01:04.171Z",
+      "thumbnail_url": "assets/images/Document1.png",
+      "id": 6
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "actor_id": 2,
+      "actor_name": "Jane",
+      "action": "uploaded",
+      "file_id": 0,
+      "file_name": "Document1.pdf",
+      "is_read": 1,
+      "created_at": "2023-08-03T03:33:00.000Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "actor_id": 1,
+      "actor_name": "John",
+      "action": "requested access",
+      "file_id": 2,
+      "file_name": "Document2.pdf",
+      "is_read": 1,
+      "created_at": "2023-08-04T04:44:00.000Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "actor_id": 3,
+      "actor_name": "Michael",
+      "action": "deleted",
+      "file_id": 2,
+      "file_name": "Document2.pdf",
+      "is_read": 1,
+      "created_at": "2023-08-05T05:55:00.000Z"
+    },
+    {
+      "user_id": 1,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 0,
+      "created_at": "2023-09-20T11:56:33.250Z",
+      "id": 4
+    },
+    {
+      "user_id": 2,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 0,
+      "created_at": "2023-09-20T11:56:33.250Z",
+      "id": 5
+    },
+    {
+      "user_id": 3,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 0,
+      "created_at": "2023-09-20T11:56:33.250Z",
+      "id": 6
+    },
+    {
+      "user_id": 4,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 1,
+      "created_at": "2023-09-20T11:56:33.250Z",
+      "id": 7
+    },
+    {
+      "user_id": 1,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 0,
+      "created_at": "2023-09-20T12:01:04.171Z",
+      "id": 8
+    },
+    {
+      "user_id": 2,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 0,
+      "created_at": "2023-09-20T12:01:04.171Z",
+      "id": 9
+    },
+    {
+      "user_id": 3,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 0,
+      "created_at": "2023-09-20T12:01:04.171Z",
+      "id": 10
+    },
+    {
+      "user_id": 4,
+      "actor_id": 4,
+      "actor_name": "Sai Charan Chetpelly",
+      "action": "uploaded",
+      "file_name": "resume updated (1).pdf",
+      "is_read": 0,
+      "created_at": "2023-09-20T12:01:04.171Z",
+      "id": 11
+    }
+  ]
+}
