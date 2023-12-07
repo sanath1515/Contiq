@@ -31,6 +31,9 @@ Through this innovative approach, Contiq serves as a catalyst for expediting the
 - Post Man
 - Visual Studio Code (frontend)
 - My SQL Work Bench
+- Elastic Search
+- Gapi script
+- FireBase
 - Intellij (backend)
 - Story Book
 - Draw.io/sql.dbm
