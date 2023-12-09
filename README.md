@@ -1,4 +1,4 @@
-# Deck management platform
+# Deck management platform - Contiq
 
 ## Introduction
 
