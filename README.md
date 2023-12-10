@@ -101,7 +101,7 @@ Through this innovative approach, Contiq serves as a catalyst for expediting the
 
 ## Database
 
-- SQL stores jobs, user, companies
+- SQL stores  user, file and notification
   
 
                     
